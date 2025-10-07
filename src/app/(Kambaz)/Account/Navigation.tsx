@@ -6,7 +6,7 @@ import { RxDividerVertical } from "react-icons/rx";
 export default function AccountNavigation() {
   const path = usePathname();
  return (
-      <ListGroup className="rounded-0 position-fixed bottom-0 top-0 d-none d-md-block bg-white z-2" style={{ width: 110 }}
+      <ListGroup className="rounded-0 d-none d-md-block bg-white z-2" style={{ width: 110 }}
               id="wd-account-navigation">
       <ListGroupItem className={`border-0 text-center bg-white`}>
        <Link href="Signin" id="wd-account-link" className={`${path.includes("Signin") ? "text-black" : "text-danger"} text-decoration-none`}>
