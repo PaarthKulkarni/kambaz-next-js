@@ -1,15 +1,21 @@
 import { ReactNode } from "react";
 import AccountNavigation from "./Navigation";
+import { FaAlignJustify } from "react-icons/fa";
+
 export default function AccountLayout({ children }: Readonly<{ children: ReactNode }>) {
  return (
-   <div id="wd-kambaz">
-    <div className="d-flex">
-      <div>
-             <AccountNavigation />
-             </div>
-           <div className="wd-main-content-offset p-3 flex-fill">
-             {children}
+
+      <div id="wd-courses">
+        <br/>
+        <div className="d-flex">
+        <div className="d-none d-md-block">
+        <AccountNavigation />
+        </div>
+      <div className="flex-fill">
+        {children}
+        </div>
             </div>
-     </div>
-  </div>
+            </div>
+
+  
 );}
