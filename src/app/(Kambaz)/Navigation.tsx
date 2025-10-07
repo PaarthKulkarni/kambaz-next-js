@@ -17,7 +17,7 @@ export default function KambazNavigation() {
      </ListGroupItem>
       <ListGroupItem className={`border-0 text-center ${path.startsWith("/Account") ? "bg-white" : "bg-black"}`}>
        <Link href="/Account" id="wd-account-link" className={`${path.startsWith("/Account") ? "text-danger" : "text-white"} text-decoration-none`}>
-         <FaRegCircleUser className={`fs-1 ${path.startsWith("/Account") ? "text-danger" : "text-white"} text-decoration-none`} />
+         <FaRegCircleUser className="fs-1 text-white" />
          <br />
          Account
        </Link>

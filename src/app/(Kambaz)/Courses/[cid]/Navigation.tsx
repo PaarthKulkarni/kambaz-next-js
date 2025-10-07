@@ -19,3 +19,8 @@ export default function CourseNavigation() {
       <Link href="/Courses/1234/People/Table" id="wd-course-people-link" className={`list-group-item border-0 ${path.startsWith("/Courses/1234/People/Table") ? "active" : "text-danger"}`}>People</Link>
     </div>
   );}
+
+
+
+
+  
